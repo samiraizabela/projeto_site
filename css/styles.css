@@ -20,13 +20,33 @@
     background-repeat:no-repeat;
     background-size: cover;
 }
-#interface .cabecalho .logoMenu {
+#interface .cabecalho .logomenu { /*TAG NAV*/
     display: block;
+    flex-direction: row;
+    justify-content: space-between;
     width: 100%;
     padding: 1rem;
     background-color: transparent;
+    
 
 }
-#interface .cabecalho .logoMenu a {
+#interface .cabecalho .logomenu .linkLogo {
+    display: block;
+    width: 100px;
 
 }
+#interface .cabecalho .logomenu a img {
+    width:100%;
+
+}
+#interface .cabecalho .logomenu .menu {
+    display: flex;
+    flex
+    list-style: none;
+}
+#interface .cabecalho .logomenu .menu li {
+    display: inline-block;
+}
+
+
+
