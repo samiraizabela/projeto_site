@@ -1,4 +1,4 @@
-*{
+* {
     font-size: 12px;
     font-family: Verdana,sans-serif;
     box-sizing: border-box;
@@ -9,7 +9,6 @@
     width: 100vw;
     height: 100vh;
     overflow-x: hidden;
-
 }
 
 #interface .cabecalho {
@@ -27,6 +26,12 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+}
+
+#interface .cabecalho .logomenu { /*TAG NAV*/
+    display: block;
+    flex-direction: row;
+    justify-content: space-between;
     width: 100%;
     padding: 1rem 7rem;
     background-color: transparent;
@@ -85,6 +90,23 @@
     height: 12px;
     background-color: 2px solid #fafafa;
     border-bottom: 2px solid #fafafa;
+}
+
+#interface .cabecalho .logomenu .linkLogo {
+    display: block;
+    width: 100px;
+
+}
+#interface .cabecalho .logomenu a img {
+    width:100%;
+
+}
+#interface .cabecalho .logomenu .menu {
+    display: flex;
+    list-style: none;
+}
+#interface .cabecalho .logomenu .menu li {
+    display: inline-block;
 }
 
 
