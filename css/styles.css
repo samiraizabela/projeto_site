@@ -5,6 +5,10 @@
     margin: 0;
     padding: 0;
 }
+@font-face {
+    font-family: MontSerrat;
+    src: url('../Fontes/Montserrat-Italic-VariableFont_wght.ttf');
+}
 #interface {
     width: 100vw;
     height: 100vh;
@@ -61,18 +65,18 @@
         display: none;
     }
 }
-
-
 #interface .cabecalho .logomenu .menu {
     display: none;
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
     list-style: none;
+    
 }
 @media screen and (min-width: 992px) {
     #interface .cabecalho .logomenu .menu{
         display: flex;
+
     }
 }
 
@@ -83,6 +87,8 @@
     padding: .5rem 1rem;
     text-decoration: none;
     text-transform: uppercase;
+    font-family: Lato;
+
 }
 #interface .cabecalho .logomenu .menu li a::after{
     content: '';
@@ -102,11 +108,38 @@
 
 }
 #interface .cabecalho .logomenu .menu {
-    display: flex;
-    list-style: none;
+    /*display: flex;*/
+    /*list-style: none;*/
 }
 #interface .cabecalho .logomenu .menu li {
     display: inline-block;
 }
-
-
+#interface .cabecalho .grpTitles{
+    display: block;
+    color: #c2c2c2;
+    padding-top: 10%;
+    padding-left: 40%;
+}
+#interface .cabecalho .grpTitles .titlePrincipal{
+    font-size: 2rem;
+    font-family: MontSerrat;
+    color: #ffffff;
+    font-weight: 500;
+}
+#interface .cabecalho .grpTitles .TitleLogo{
+    font-size: 1.8;
+    font-style: MontSerrat;
+    color: rgb(51, 67, 212);
+    font-weight: 500;
+}
+#interface .cabecalho .grpTitles .subText{
+    font-size: 1.2rem;
+    font-style: MontSerrat;
+    color: rgb(136, 136, 136);
+    margin-top: 1.5rem;
+}
+#interface .cabecalho .SocialIcons{
+    display: block;
+    margin-top: 3rem;
+    padding-left: 40%;
+}
